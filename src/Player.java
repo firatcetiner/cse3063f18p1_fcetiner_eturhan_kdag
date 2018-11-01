@@ -1,5 +1,3 @@
-package com.cse3063f18p1.monopolygame;
-
 public class Player {
     protected int totalLap = 0;
     private int position = 0;

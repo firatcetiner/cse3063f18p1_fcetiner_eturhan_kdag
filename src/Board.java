@@ -1,5 +1,3 @@
-package com.cse3063f18p1.monopolygame;
-
 public class Board {
     private int totalPlayer = 0;
     private int currentPlayer = 0;

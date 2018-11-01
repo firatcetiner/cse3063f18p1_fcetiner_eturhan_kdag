@@ -1,5 +1,3 @@
-package com.cse3063f18p1.monopolygame;
-
 import java.util.Random;
 
 public class Die {

@@ -26,6 +26,7 @@ public class Player {
         return this.position;
     }
 
+
     public int getId() {
         return this.id;
     }

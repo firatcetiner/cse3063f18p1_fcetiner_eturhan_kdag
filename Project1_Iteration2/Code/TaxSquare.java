@@ -9,6 +9,6 @@ public class TaxSquare extends Square {
     }
     @Override
     public void Action(Board board, Player player) {
-        player.setMoney(-10);
+        player.setMoney(-10); // get tax from player
     }
 }

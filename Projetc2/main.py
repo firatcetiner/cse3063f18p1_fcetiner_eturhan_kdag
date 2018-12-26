@@ -43,9 +43,11 @@ def main():
     wordFlag = {}
 
     counter.counter(articles, totalTermNumber, wordFlag, articleNumber)
-
+    tf = {}
     sorted_tf_list = sorted(totalTermNumber.items(), key=operator.itemgetter(1), reverse=True)
-
+    
+    tflist.write_to_file(sorted_tf_list)
+    
     def build_cloud(text, flag):
         wc = WordCloud(background_color="white", max_words=50, max_font_size=50, width=480,
                     height=270).generate_from_frequencies(text)
